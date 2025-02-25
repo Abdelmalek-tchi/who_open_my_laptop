@@ -20,10 +20,10 @@ cv2.destroyAllWindows()
 
 
 
-sender_email = "script.pyth@gmail.com"
-receiver_email = "lekmal48@gmail.com"
+sender_email = ""
+receiver_email = ""
 #not your password you need to get Gmail api key
-password = "ddarhxwvvzeaarxj"
+password = ""
 
 
 message = MIMEMultipart()
