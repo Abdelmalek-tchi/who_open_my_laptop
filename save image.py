@@ -44,4 +44,4 @@ with smtplib.SMTP("smtp.gmail.com", 587) as server:
     server.starttls()
     server.login(sender_email, password)
     server.sendmail(sender_email, receiver_email, message.as_string())
-
+  
